@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 1em 0;
+}
+ul{
+    list-style: none;
+    padding-left: 0.5em;
+}
+.search{
+    justify-self: end;
+    padding-right: 0.5em;
+    display: initial;
+    visibility: visible;
+}
+.socials{
+    display: initial;
+    visibility: visible;
+}
+.header li{
+    display: inline-block;
+  
+}
+.socials i{
+    padding: 0 .3em;
+    color: white;
+}
+
+/*.search input[input=text]{
+
+}
+*/
+
+.the-website{
+    padding: 3em;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+}
+.the-website > div {
+    border: 1px solid green;
+    height: 200px;
+}
+
+.perso{
+    display: grid;
+   grid-template-columns: repeat(4, 1fr);
+}
+
+.fas{
+    display: none;
+    visibility: hidden;
+}
+
+.overlay{
+    display: none;
+    visibility: hidden;
+}
+
+footer{
+   
+    position: fixed;
+    bottom: 0;
+    background: #123740;
+    width: 100%;
+    
+
+}
+footer p{
+    
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+footer a{
+    color: orangered;
+
+}
+@media only screen and (max-width:500px) {
+     .search{
+        display: none;
+        visibility: hidden;
+    }
+    .socials{
+        display: none;
+        visibility: hidden;
+    }
+    .fas{
+        padding-left: 1em;
+        color: white;
+        font-size: 2em;
+        display: initial;
+        visibility: visible;
+    }
+
+
+
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+       background: black;
+        overflow-x: hidden;
+        transition: 0.5s;
+        border-bottom: 10px solid #2a736a;
+        visibility: visible;
+        display: initial;
+      }
+     
+      .overlay .closebtn {
+        position: absolute;
+        top:0;
+        right: 1em;
+        font-size: 3em;
+        color: white;
+      }
+    
+    .both{
+      
+        height: 100%;
+        display: grid;
+        align-content: center;
+        text-align: center;
+    }
+    
+    .both2 ul {
+        padding-left: 0;
+        
+    }
+    .both2 li{
+        display: inline-block;
+    }
+    .both2 i {
+        color: white;
+        font-size: 1.5em;
+        padding: 0 0.5em;
+    }
+    
+}

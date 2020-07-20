@@ -1,0 +1,4 @@
+1.find pics
+2.crop them 
+3.find clips 
+4.cut them
