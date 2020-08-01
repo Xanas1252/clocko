@@ -22,8 +22,8 @@ ul{
 .search{
     justify-self: end;
     padding-right: 0.5em;
-    display: initial;
-    visibility: visible;
+    display: none;
+    visibility: hidden;
 }
 .socials{
     display: initial;
