@@ -1,4 +1,2 @@
-1.find pics
-2.crop them 
-3.find clips 
-4.cut them
+1.find 6 pics and corp them
+2.find 22 vocals and cut them
