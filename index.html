@@ -17,6 +17,10 @@
        function sadnav() {
          document.getElementById("myNav").style.width = "0%";
        }
+       function disapear(){
+    document.getElementById('dm').style.visibility = "hidden";
+    document.getElementById('dm').style.display = "none";
+}
     </script>
     
     <div id="myNav" class="overlay">
@@ -25,49 +29,31 @@
       
     <div class="both2">
         <ul>
-            <li><a href="https://web.facebook.com/profile.php?id=100049280641204"><i class="fab fa-facebook" ></i>
+            <li><a href="https://www.facebook.com/youness.nb.395/"><i class="fab fa-facebook" ></i>
     </a></li>
     <li><a href="https://www.instagram.com/younessasserare/"><i class="fab fa-instagram" ></i>
     </a></li>
-            <li><a href="https://dribbble.com/Younessrare"><i class="fab fa-dribbble" ></i>
-    </a></li>
+          
     <li><a href="https://twitter.com/YounessAsserare"><i class="fab fa-twitter" ></i>
     </a></li>
         </ul>
         </div>
     </div>
       </div>
-    
+  
+      
+      
 
-
+<div id="dm">
+<h3><a href="https://www.instagram.com/younessasserare/" onclick="disapear()">Click here to DM me which personality you wish me to add </a> </h3>
+<a style="text-align: end; font-size: 1.5em; cursor: pointer;"  onclick="disapear()">&#x292B;</a>
+</div>
 
 <header>
-    <div class="header"> 
+ 
+       
         
-        <div class="socials">
-            <ul>
-                <li><a href="https://wwww.facebook.com/profile.php?id=100049280641204" ><i class="fab fa-facebook"></i>
  
- 
- 
- </a></li>
-                <li><a href="https://www.instagram.com/younessasserare/" ><i class="fab fa-instagram"></i>
- 
- </a></li>
-                <li><a href="https://dribbble.com/Younessrare"><i class="fab fa-dribbble"></i>
- 
- </a></li>
- <li><a href="https://twitter.com/YounessAsserare"><i class="fab fa-twitter"></i>
- 
- </a></li>
-            </ul>
-
-        </div>
-        <div class="search">
-<input type="text" placeholder="Search..">
-        </div>
-        <i class="fas fa-stream" onclick="openNav()"></i>
-    </div>
 </header>
 <section>
     <div class="the-website">
@@ -79,11 +65,11 @@
                 <img src="gary-head.png" alt="gary vaynerchuck" width="200px" height="200px" onclick="play2()">
                 
             </diV>
-            <diV>
+            <diV class="bx1">
                 <img src="gary-head.png" alt="gary vaynerchuck" width="200px" height="200px" onclick="play()">
                 
             </diV>
-            <diV class="bx2">
+            <diV class="bx1">
                 <img src="gary-head.png" alt="gary vaynerchuck" width="200px" height="200px" onclick="play()">
                 
             </diV>
@@ -133,11 +119,11 @@
                 <img src="gary-head.png" alt="gary vaynerchuck" width="200px" height="200px" onclick="play2()">
                 
             </diV>
-            <diV>
+            <diV class="bx1">
                 <img src="gary-head.png" alt="gary vaynerchuck" width="200px" height="200px" onclick="play()">
                 
             </diV>
-            <diV class="bx2">
+            <diV class="bx1">
                 <img src="gary-head.png" alt="gary vaynerchuck" width="200px" height="200px" onclick="play()">
                 
             </diV>
@@ -200,5 +186,6 @@
         audio.play();
       }
 </script>
+
     </body>
 </html>
